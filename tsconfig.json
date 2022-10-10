@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "baseUrl": "./",
+        "incremental": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "outDir": "./dist/",
+        "target": "ES5",
+        "lib": ["ES6", "DOM"],
+        "types": ["reflect-metadata", "node"],
+        "noImplicitAny": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "paths": {
+            "@src/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+}

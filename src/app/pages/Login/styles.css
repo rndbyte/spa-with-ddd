@@ -1,0 +1,29 @@
+.login-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+}
+
+.login-form > input, .login-form > button {
+     width: 100%;
+     margin-bottom: 2%;
+}
+
+.login-card {
+    text-align: center;
+}
+
+.login-error {
+    color: red;
+}
